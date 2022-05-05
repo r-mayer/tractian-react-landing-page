@@ -1,0 +1,22 @@
+/* LANG BUTTON */
+
+.lang-button-container {
+    list-style: none;
+    padding: 0.3rem 0.7rem;
+    background-color: var(--gray);
+    border-radius: 0.3rem;
+    display: flex;
+    align-items: center;
+}
+
+.flag-logo {
+    width: 0.8rem;
+}
+
+.flag-logo, .lang-text {
+    margin-right: 0.4rem;
+}
+
+.lang-text {
+    font-size: 0.8rem;
+}

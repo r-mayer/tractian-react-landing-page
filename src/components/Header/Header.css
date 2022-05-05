@@ -1,36 +1,19 @@
 
-
+/* HEADER */
 .header-container {
     width: 100%;
     height: 100vh;
     overflow: hidden;
-    border: 1px solid red;
 }
 
-header {
-    height: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    border: 1px solid red;
+
+/* RIGHT LINKS */
+
+.customer-link {
+    margin-right: 1rem;
 }
 
-.logo {
-    width: 10rem;
-}
 
-.middle-links ul {
-    display: flex;
-    justify-content: space-between;
-    border: 1px solid violet;
+.header-container {
+    background-color: var(--dark);
 }
-
-.middle-links ul li {
-    margin: 0 2rem;
-}
-
-.right-links {
-    display: flex;
-    border: 1px solid blue;
-}
-

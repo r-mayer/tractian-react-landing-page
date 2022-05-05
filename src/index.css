@@ -1,11 +1,26 @@
-body {
+:root {
+  --dark: #1C2431;
+  --white: #FFFFFF;
+  --main-blue: #337BF1;
+  --gray: #374152;
+  --time: 0.3s;
+}
+
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
   width: 100vw;
   overflow-x: hidden;
-  box-sizing: border-box;
-  font-family: sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  padding: 0 2.5rem;
 }
 

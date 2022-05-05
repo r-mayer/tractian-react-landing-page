@@ -1,31 +1,28 @@
 import './Header.css';
+import Navbar from '../Navbar/Navbar';
+
 
 function Header() {
     return (
-        <div className="header-container">
-            <header>
-                <img src="logo.svg" alt="Logo" className='logo'/>
-                <div className="middle-links">
-                    <ul>
-                        <li>Soluções</li>
-                        <li>Indústrias</li>
-                        <li>Sobre</li>
-                        <li>Materiais</li>
-                        <li>Blog</li>
-                        <li>FLAG</li>
-                    </ul>
-                </div>
-                <div className="right-links">
-                    <p>Área do Cliente</p>
-                    <p>Demonstração</p>
-                </div>
-            </header>
-            <div className="hero-container">
-                <h1>Titulo</h1>
-                <p>Textooooooo</p>
-            </div>
+        <div className="header-container container">
+            <Navbar />
+            <Hero />
         </div>
     )
 }
 
 export default Header;
+
+
+function Hero() {
+    return (
+        <div className="hero-container">
+            <h1 className="hero-title">Teste</h1>
+            <h3 className="hero-text">Teste</h3>
+            <div className="app-ratings">
+                <p>Google</p>
+                <p>Capterra</p>
+            </div>
+        </div>
+    )
+}
