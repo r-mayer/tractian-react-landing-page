@@ -1,0 +1,32 @@
+.bottom-btn-area {
+    margin: 5rem 0 5rem 0;
+    position: relative;
+    z-index: 0;
+}
+
+.letter-bg {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-54%) translateY(-50%);
+    z-index: -1;
+    display: flex;
+}
+
+.lt-bg {
+    width: 150px;
+    margin: 0 0.5rem 0 0;
+}
+
+
+.btn-customer {
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-top: 0.8rem;
+}
+
+.link-customer {
+    text-decoration: none;
+    color: var(--main-blue);
+    font-weight: 300;
+}

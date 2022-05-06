@@ -6,7 +6,7 @@
     align-items: center;
     padding: 0.2rem 1.2rem;
     font-weight: 300;
-    font-size: 1rem;
+    font-size: 0.95rem;
     line-height: 1;
 }
 
@@ -16,26 +16,6 @@
     cursor: pointer;
     display: flex;
     align-items: center;
-}
-
-.arrow {
-    font-size: 0.7rem;
-    transition: rotate 0.3s;
-    padding: 0.2rem;
-}
-
-.rotate {
-    transform: rotate(180deg);
-    animation: spin 0.4s;
-}
-
-@keyframes spin {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(180deg);
-    }
 }
 
 .nav-item-text {

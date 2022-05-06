@@ -7,6 +7,8 @@
     border-radius: 0.3rem;
     display: flex;
     align-items: center;
+    cursor: pointer;
+    position: relative;
 }
 
 .flag-logo {
@@ -19,4 +21,22 @@
 
 .lang-text {
     font-size: 0.8rem;
+}
+
+
+.list-langs-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateY(1.7rem) translateX(10%);
+}
+
+.list-langs {
+    width: 100px;
+    margin-top: 0.3rem;
+    border-radius: 0.4rem;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

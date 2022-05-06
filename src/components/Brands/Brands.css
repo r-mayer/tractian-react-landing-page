@@ -1,0 +1,46 @@
+.brands-container {
+    width: 100%;
+    /* min-width: 700px; */
+    padding: 1rem 4rem 0.7rem 4rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    background-color: rgba(28, 36, 49, 0.95);
+    border: 1px solid rgba(51, 123, 241, 0.2);
+    box-shadow: inset 0 0 2rem rgba(28, 36, 49, 0.95);
+}
+
+.brand-logo {
+    height: 80px;
+    width: 130px;
+    filter:grayscale(1) opacity(0.7) brightness(10); 
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-img {
+    width: 100%;
+}
+
+.blur {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+}
+
+.left {
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(28, 36, 49, 0.2) 0%, rgba(255,255,255,0) 100%);
+    left: 0;
+}
+
+.right {
+    background: rgb(255,255,255);
+    background: linear-gradient(270deg, rgba(28, 36, 49, 0.2) 0%, rgba(255,255,255,0) 100%);
+    right: 0;
+}

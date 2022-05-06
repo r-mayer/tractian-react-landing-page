@@ -38,6 +38,25 @@ header {
     /* margin: 0 1rem; */
 }
 
+.arrow {
+    font-size: 0.7rem;
+    transition: rotate 0.3s;
+    padding: 0.2rem;
+}
+
+.rotate {
+    transform: rotate(180deg);
+    animation: spin 0.4s;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(180deg);
+    }
+}
 
 /* RIGHT LINKS */
 .right-links {

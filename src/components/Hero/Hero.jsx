@@ -1,4 +1,4 @@
-import MainButton from '../MainButton/MainButton';
+import ButtonArea from '../ButtonArea/ButtonArea';
 import './Hero.css';
 
 function Hero() {
@@ -11,14 +11,7 @@ function Hero() {
                     <img src="./google-logo.svg" alt="Play Store Logo" className='google-logo'/>
                     <img src="./captera-logo.svg" alt="Capterra Logo" className='capterra-logo'/>
                 </div>
-                <div className="bottom-btn-area">
-                    <div className="letter-bg">
-                        <img src="./letter-T.svg" alt="bg-T" className='lt-bg' />
-                        <img src="./letter-N.svg" alt="bg-N" className='lt-bg' />
-                    </div>
-                    <MainButton size="big">Schedule a demo</MainButton>
-                    <p className='btn-customer'>Already a customer? <a href="http://localhost:3000/" className='link-customer'>Access here.</a></p>
-                </div>
+                <ButtonArea />
             </div>
         </div>
     )

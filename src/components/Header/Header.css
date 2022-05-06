@@ -2,20 +2,17 @@
 /* HEADER */
 .header-container {
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     overflow-x: hidden;
+    background-color: var(--dark);
+    position: relative;
+    z-index: 0;
 }
 
 /* RIGHT LINKS */
 
 .customer-link {
     margin-right: 1rem;
-}
-
-.header-container {
-    background-color: var(--dark);
-    position: relative;
-    z-index: 0;
 }
 
 .bg-items {

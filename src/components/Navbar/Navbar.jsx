@@ -14,7 +14,6 @@ function Navbar() {
                         <NavItem>Industries</NavItem>
                         <NavItem>About Us</NavItem>
                         <NavItem>Resoucers</NavItem>
-                        {/* <NavItem arrow="disabled">Blog</NavItem> */}
                         <p className="nav-link nav-item">Blog</p>
                         <LangButton />
                     </ul>

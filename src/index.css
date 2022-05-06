@@ -13,6 +13,10 @@
   font-family: 'Poppins', sans-serif;
 }
 
+html {
+  width: 100vw;
+}
+
 body {
   width: 100vw;
   overflow-x: hidden;
@@ -21,6 +25,5 @@ body {
 }
 
 .container {
-  padding: 0 2.5rem;
+  padding: 0 3.5rem;
 }
-
