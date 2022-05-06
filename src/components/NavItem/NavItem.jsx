@@ -1,14 +1,15 @@
 import './NavItem.css';
+import React, { useState } from 'react';
 
 function NavItem(props) {
-    if (props.arrow !== "disabled") {
-        var drawArrow = <i class="fa-solid fa-angle-down arrow"></i>;
-    }
+    const [IsActive, setIsActive] = useState('false');
 
     return (
         <li className='nav-item'>
-            <span className='nav-item-text'>{props.children}</span>
-            {drawArrow}
+            <a href="#" className={`nav-link ${IsActive ? "" : "active" }`} onClick= {() => {setIsActive(!IsActive)}}>
+                <span className='nav-item-text'>{props.children}</span>
+                <i className={`fa-solid fa-angle-down arrow ${IsActive ? "" : "rotate"}`}></i>
+            </a>
         </li>
     )
 }

@@ -10,10 +10,38 @@
     line-height: 1;
 }
 
+.nav-link {
+    text-decoration: none;
+    color: var(--white);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
 .arrow {
     font-size: 0.7rem;
+    transition: rotate 0.3s;
+    padding: 0.2rem;
+}
+
+.rotate {
+    transform: rotate(180deg);
+    animation: spin 0.4s;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(180deg);
+    }
 }
 
 .nav-item-text {
     margin-right: 0.4rem;
+}
+
+.active {
+    /* color: red; */
 }

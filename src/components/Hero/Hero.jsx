@@ -1,4 +1,4 @@
-import LightButton from '../LightButton/LightButton';
+import MainButton from '../MainButton/MainButton';
 import './Hero.css';
 
 function Hero() {
@@ -16,7 +16,7 @@ function Hero() {
                         <img src="./letter-T.svg" alt="bg-T" className='lt-bg' />
                         <img src="./letter-N.svg" alt="bg-N" className='lt-bg' />
                     </div>
-                    <LightButton size="big">Schedule a demo</LightButton>
+                    <MainButton size="big">Schedule a demo</MainButton>
                     <p className='btn-customer'>Already a customer? <a href="http://localhost:3000/" className='link-customer'>Access here.</a></p>
                 </div>
             </div>

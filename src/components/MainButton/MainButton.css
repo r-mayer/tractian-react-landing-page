@@ -1,4 +1,4 @@
-.light-button {
+.main-button {
     border: none;
     background-color: var(--main-blue);
     /* background-color: transparent; */
@@ -10,7 +10,7 @@
     cursor: pointer;
 }
 
-.light-button:hover {
+.main-button:hover {
     background-color: #5491f3;
 }
 

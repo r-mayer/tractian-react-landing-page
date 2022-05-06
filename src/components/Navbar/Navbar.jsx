@@ -1,7 +1,7 @@
 import './Navbar.css';
 import NavItem from '../NavItem/NavItem';
 import LangButton from '../LangButton/LangButton';
-import LightButton from '../LightButton/LightButton';
+import MainButton from '../MainButton/MainButton';
 
 function Navbar() {
     return (
@@ -14,13 +14,14 @@ function Navbar() {
                         <NavItem>Industries</NavItem>
                         <NavItem>About Us</NavItem>
                         <NavItem>Resoucers</NavItem>
-                        <NavItem arrow="disabled">Blog</NavItem>
+                        {/* <NavItem arrow="disabled">Blog</NavItem> */}
+                        <p className="nav-link nav-item">Blog</p>
                         <LangButton />
                     </ul>
                  </div>
                 <div className="right-links">
                     <p className='customer-link'>Customers area</p>
-                    <LightButton>Demonstration</LightButton>
+                    <MainButton>Demonstration</MainButton>
                 </div>
             </header>
         </div>
