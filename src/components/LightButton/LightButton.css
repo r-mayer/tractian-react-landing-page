@@ -13,3 +13,8 @@
 .light-button:hover {
     background-color: #5491f3;
 }
+
+.big {
+    font-size: 1.1rem;
+    padding: 0.5rem 1.4rem;
+}

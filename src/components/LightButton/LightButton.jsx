@@ -2,8 +2,9 @@ import './LightButton.css';
 
 
 function LightButton (props) {
-    return(
-        <button className='light-button'>{props.children}</button>
+    var size = (props.size === "big") ? "big" : ""
+    return (
+        <button className={`light-button ${size}`}>{props.children}</button>
     )
 }
 

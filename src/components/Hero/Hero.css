@@ -1,0 +1,80 @@
+.hero-container {
+    display: flex;
+    justify-content: center;
+    color: var(--white);
+}
+
+.hero-container .wrapper {
+    max-width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-title {
+    margin-top: 3rem;
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.hero-text {
+    width: 60%;
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.app-ratings {
+    display: flex;
+    margin-top: 1.5rem;
+}
+
+.google-logo, .capterra-logo {
+    margin: 0 1rem;
+}
+
+.google-logo {
+    width: 7rem;
+}
+
+.capterra-logo {
+    width: 10rem;
+}
+
+.bottom-btn-area {
+    margin: 5rem 0 5rem 0;
+    position: relative;
+    z-index: 0;
+}
+
+.btn-customer {
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-top: 0.8rem;
+}
+
+.link-customer {
+    text-decoration: none;
+    color: var(--main-blue);
+    font-weight: 300;
+}
+
+.letter-bg {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-54%) translateY(-50%);
+    z-index: -1;
+    display: flex;
+}
+
+.lt-bg {
+    width: 150px;
+    margin: 0 0.5rem 0 0;
+}
+
+.blue {
+    color: var(--main-blue);
+    font-weight: 500;
+}

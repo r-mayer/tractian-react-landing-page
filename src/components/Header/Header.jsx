@@ -1,10 +1,15 @@
 import './Header.css';
 import Navbar from '../Navbar/Navbar';
-
+import Hero from '../Hero/Hero';
 
 function Header() {
     return (
         <div className="header-container container">
+            <div className="bg-items">
+                <img src="./blueball.svg" alt="a" className='bg-blueball'/>
+                <img src="./man-illustration.svg" alt="a" className='bg-man'/>
+                <img src="./squares.svg" alt="a" className='bg-squares'/>
+            </div>
             <Navbar />
             <Hero />
         </div>
@@ -12,17 +17,3 @@ function Header() {
 }
 
 export default Header;
-
-
-function Hero() {
-    return (
-        <div className="hero-container">
-            <h1 className="hero-title">Teste</h1>
-            <h3 className="hero-text">Teste</h3>
-            <div className="app-ratings">
-                <p>Google</p>
-                <p>Capterra</p>
-            </div>
-        </div>
-    )
-}

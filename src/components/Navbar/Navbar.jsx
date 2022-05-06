@@ -8,7 +8,6 @@ function Navbar() {
         <div className="navbar">
             <header>
                 <img src="logo.svg" alt="Logo" className='logo white-svg'/>
-
                 <div className="middle-links">
                     <ul>
                         <NavItem>Solutions</NavItem>
@@ -19,7 +18,6 @@ function Navbar() {
                         <LangButton />
                     </ul>
                  </div>
-
                 <div className="right-links">
                     <p className='customer-link'>Customers area</p>
                     <LightButton>Demonstration</LightButton>
