@@ -27,16 +27,34 @@
 .list-langs-container {
     position: absolute;
     top: 0;
-    right: 0;
-    transform: translateY(1.7rem) translateX(10%);
+    left: 0;
+    transform: translateY(1.7rem) translateX(0);
 }
 
 .list-langs {
-    width: 100px;
+    width: 100%;
     margin-top: 0.3rem;
     border-radius: 0.4rem;
-    background-color: gray;
+    border: 1px solid var(--gray);
+    background-color: rgba(26, 30, 36, 0.7);
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0.4rem 0.8rem;
+}
+
+.lang-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.lang-container:first-child {
+    margin-bottom: 0.2rem;
+}
+
+.lang-container:hover {
+    background-color: rgba(52, 61, 73, 0.8);
 }
