@@ -20,6 +20,7 @@ html {
 body {
   width: 100vw;
   overflow-x: hidden;
+  background-color: var(--dark);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

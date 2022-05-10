@@ -2,6 +2,8 @@ import './Brands.css';
 
 function Brands() {
     return (
+        <>
+        <p className='brands-title'>Brands that trust us:</p>
         <div className="brands-container container">
             <div className="blur left"></div>
             <div className="blur right"></div>
@@ -11,6 +13,7 @@ function Brands() {
             <div className="brand-logo"><img src="./logo-suzano-2.png" alt="Brand Logo" className='logo-img'/></div>
             <div className="brand-logo"><img src="./logo-arcelor-2.png" alt="Brand Logo" className='logo-img'/></div>
         </div>
+        </>
     )
 }
 

@@ -1,4 +1,80 @@
 .features {
     background-color: var(--dark);
     min-height: 100vh;
+    padding-top: 3rem;
+    margin-bottom: 6rem;
+    position: relative;
 }
+
+.feature-menu {
+    display: flex;
+    width: 100%;
+    padding: 3rem 4rem 0 3rem;
+}
+
+.bg-blueball-features {
+    position: absolute;
+    width: 200px;
+    left: 2%;
+    top: 15%;
+    opacity: 0.7;
+}
+
+.menu-item {
+    flex: 1 0;
+    color: var(--white);
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 0.3rem;
+    border-bottom: 1px solid var(--main-blue);
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.menu-item:hover {
+    border-bottom: 4px solid var(--main-blue);
+}
+
+.menu-item.active {
+    border-bottom: 4px solid var(--main-blue);
+}
+
+.menu-item.active:hover {
+    border-bottom: 4px solid #205fc4;
+}
+
+.features-wrapper {
+    display: flex;
+    margin-top: 2rem;
+    padding: 0 3rem 0 2rem;
+}
+
+.features-call {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.features-call-pre-title {
+    width: 100%;
+    color: var(--main-blue);
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.features-call-title {
+    width: 100%;
+    color: var(--white);
+    font-weight: 500;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.features-items {
+    width: 50%;
+    padding: 1rem;
+}
+
