@@ -5,6 +5,9 @@ import FeaturesItems from '../FeaturesItems/FeaturesItems';
 import './Features.css';
 
 function Features() {
+    const menu = document.querySelectorAll('.menu-item');
+    const [menuActive, setMenuActive] = useState("plug");
+
     useEffect(() => {
         const menu = document.querySelectorAll('.menu-item');
         menu.forEach((item) => {
@@ -19,10 +22,6 @@ function Features() {
             setMenuActive(this.id);        
         }
       });
-
-    const menu = document.querySelectorAll('.menu-item');
-    const [menuActive, setMenuActive] = useState("plug");
-
 
     return(
         <div className="features container">
@@ -39,7 +38,6 @@ function Features() {
                     <div className="features-btn-area">
                         <ButtonArea />
                     </div>
-
                 </div>
                 <div className="features-items">
                     {menuActive === "plug" &&   

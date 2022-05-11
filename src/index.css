@@ -1,6 +1,6 @@
 :root {
   --dark: #1C2431;
-  --white: #FFFFFF;
+  --white: rgb(255, 251, 247);
   --main-blue: #337BF1;
   --gray: #374152;
   --time: 0.3s;
