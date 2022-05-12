@@ -5,7 +5,6 @@ import FeaturesItems from '../FeaturesItems/FeaturesItems';
 import './Features.css';
 
 function Features() {
-    const menu = document.querySelectorAll('.menu-item');
     const [menuActive, setMenuActive] = useState("plug");
 
     useEffect(() => {
@@ -36,7 +35,7 @@ function Features() {
                     <p className="features-call-pre-title">EFFORTLESS PREDICTIVE MAINTENANCE</p>
                     <p className="features-call-title">Keep your team and machines performing at their best</p>
                     <div className="features-btn-area">
-                        <ButtonArea />
+                        <ButtonArea isDark={false}/>
                     </div>
                 </div>
                 <div className="features-items">

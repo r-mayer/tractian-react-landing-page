@@ -24,6 +24,12 @@ header {
     transition: filter 0.3s;
 }
 
+.hamburg {
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
 .middle-links {
     margin-right: 5rem;
 }
@@ -68,4 +74,23 @@ header {
     margin-right: 1rem;
     font-weight: 300;
     font-size: 0.9rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.customer-link:hover {
+    color: var(--main-blue);
+}
+
+
+@media screen and (max-width: 1250px) {
+    .middle-links, .right-links {
+        display: none;
+    }
+
+    .hamburg {
+        display: block;
+        margin-right: 1rem;
+    }
+    
 }

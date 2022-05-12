@@ -1,0 +1,49 @@
+.stats-container {
+    padding-top: 5rem;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    min-height: 90vh;
+}
+
+.stats-title {
+    font-size: 2rem;
+    text-align: center;
+    color: var(--white);
+    width: 50%;
+    margin-bottom: 6rem;
+    font-weight: 300;
+    position: relative;
+}
+
+.stats-title::after {
+    content: '';
+    position: absolute;
+    width: 80%;
+    height: 5px;
+    background-color: var(--main-blue);
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -2rem;
+}
+
+.stats-title span {
+    font-weight: 700;
+    color: rgba(253, 253, 255, 0.856);
+}
+
+.stats-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .stats-title {
+        width: 90%;
+    }
+}

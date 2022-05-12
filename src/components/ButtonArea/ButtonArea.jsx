@@ -1,7 +1,7 @@
 import MainButton from '../MainButton/MainButton';
 import './ButtonArea.css'
 
-function ButtonArea() {
+function ButtonArea(props) {
     return(
         <div className="bottom-btn-area">
             <div className="letter-bg">
@@ -9,7 +9,7 @@ function ButtonArea() {
                 <img src="./letter-N.svg" alt="bg-N" className='lt-bg' />
             </div>
             <MainButton size="big">Schedule a demo</MainButton>
-            <p className='btn-customer'>Already a customer? <a href="http://localhost:3000/" className='link-customer'>Access here.</a></p>
+            <p className={props.isDark ? 'btn-customer' : 'hide'}>Already a customer? <a href="http://localhost:3000/" className={props.isDark ? 'link-customer' : 'hide'}>Access here.</a></p>
         </div>
     )
 }

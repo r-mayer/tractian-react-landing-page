@@ -66,3 +66,32 @@
     border: 2px solid var(--dark);
     font-weight: 500;
 }
+
+
+@media screen and (max-width: 850px){
+    .feature-item-img{
+        height: 100px;
+    }
+
+    .feature-item-title {
+        font-size: 1rem;
+    }
+
+    .feature-item-text {
+        font-size: 0.7rem;
+    }
+}
+
+
+@media screen and (max-width: 700px){
+    .feature-item-img {
+        height: 240px;
+    }
+
+    .feature-item-title {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+
+}

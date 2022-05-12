@@ -8,6 +8,7 @@ function Navbar() {
         <div className="navbar">
             <header>
                 <img src="logo.svg" alt="Logo" className='logo white-svg'/>
+                <i class="fa-solid fa-bars hamburg"></i>
                 <div className="middle-links">
                     <ul>
                         <NavItem>Solutions</NavItem>

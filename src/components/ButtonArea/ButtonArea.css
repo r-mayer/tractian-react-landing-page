@@ -31,3 +31,8 @@
     color: var(--main-blue);
     font-weight: 300;
 }
+
+
+.hide {
+    display: none;
+}
