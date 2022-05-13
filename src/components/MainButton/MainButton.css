@@ -4,6 +4,8 @@
     /* background-color: transparent; */
     font-size: 0.9rem;
     padding: 0.5rem 1rem;
+    display: flex;
+    align-items: center;
     border-radius: 0.2rem;
     color: var(--white);
     transition: background-color 0.3s;
