@@ -6,6 +6,7 @@ import Features from './components/Features/Features';
 import Softwares from './components/Softwares/Softwares';
 import WhyTractian from './components/WhyTractian/WhyTractian';
 import Stats from './components/Stats/Stats';
+import Solutions from './components/Solutions/Solutions';
 import Footer from './components/Footer/Footer';
 
 function App() {
@@ -13,10 +14,11 @@ function App() {
     <div className="App">
       <Header />
       <Brands />
-      <Features />
+      <Solutions />
       <Softwares />
-      <WhyTractian />
+      <Features />
       <Stats />
+      <WhyTractian />
       <Footer />
     </div>
   );
