@@ -1,0 +1,45 @@
+.solution-card-container {
+    width: 500px;
+    height: 250px;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    background-color: rgb(21, 30, 46);
+    position: relative;
+    margin: 1rem;
+}
+
+.solution-card-pre-title {
+    margin-top: 0.3rem;
+    font-size: 0.6rem;
+    color: var(--main-blue);
+    font-weight: 500;
+    text-transform: uppercase;
+    filter:brightness(1.2);
+}
+
+.solution-card-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--white);
+    margin-top: 0.3rem;
+    margin-bottom: 0.2rem;
+}
+
+.solution-card-desc {
+    font-size: 0.7rem;
+    width: 60%;
+    color: rgb(207, 207, 207);
+    margin-bottom: 1rem;
+}
+
+.solution-arrow {
+    margin-left: 0.4rem;
+}
+
+
+.solution-card-img {
+    position: absolute;
+    width: 250px;
+    right: 0.5rem;
+    bottom: 1rem;
+}
