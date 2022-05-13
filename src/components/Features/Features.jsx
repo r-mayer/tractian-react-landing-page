@@ -40,7 +40,7 @@ function Features() {
                 </div>
                 <div className="features-items">
                     {menuActive === "plug" &&   
-                        <FeaturesItems img="./feature-img1.png" title="Advanced IoT technology to connect your assets" text="Our sensors send data about your machine via a 3g / 4g network with no need of tons of gateways. Just attach the sensor to the location to be monitored and everything is ready: monitor the condition of your machine in real time." />
+                        <FeaturesItems img="./feature-img1.png" title="Advanced IoT technology to connect your assets" text="Our sensors send data about your machine via a 3g/4g network with no need of tons of gateways. Just attach the sensor to the location to be monitored and everything is ready: monitor the condition of your machine in real time." />
                     }
                     {menuActive === "monitoring" &&   
                         <FeaturesItems img="./feature-img2.png" title="Platform working for you" text="Automatic insights, mechanical backlash detection, misalignment, uncoupling, and Tractian's unique AI models for each type of machine." />

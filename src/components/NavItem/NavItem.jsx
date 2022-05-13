@@ -6,7 +6,7 @@ function NavItem(props) {
 
     return (
         <li className='nav-item'>
-            <a href="#" className={`nav-link ${IsActive ? "" : "active" }`} onClick= {() => {setIsActive(!IsActive)}}>
+            <a href="/#" className={`nav-link ${IsActive ? "" : "active" }`} onClick= {() => {setIsActive(!IsActive)}}>
                 <span className='nav-item-text'>{props.children}</span>
                 <i className={`fa-solid fa-angle-down arrow ${IsActive ? "" : "rotate"}`}></i>
             </a>

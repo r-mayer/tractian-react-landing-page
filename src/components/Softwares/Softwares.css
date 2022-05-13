@@ -1,10 +1,29 @@
 .softwares {
     display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    justify-content: center;
+    min-height: 110vh;
+    position: relative;
+    margin-bottom: 4rem;
+}
+
+.sofwares-wrapper {
+    display: flex;
     padding: 1rem;
     justify-content: center;
     flex-wrap: wrap;
-    min-height: 110vh;
-    position: relative;
+}
+
+.software-section-title {
+    color: var(--white);
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.software-section-title span {
+    color: var(--main-blue);
 }
 
 .software-bg {

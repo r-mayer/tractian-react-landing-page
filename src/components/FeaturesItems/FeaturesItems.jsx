@@ -6,7 +6,7 @@ function FeaturesItems(props) {
             <img className='feature-item-img' src={props.img} alt="Feature" />
             <p className='feature-item-title'>{props.title}</p>
             <p className='feature-item-text'>{props.text}</p>
-            <a href="#" className='read-more-btn'>Read More</a>
+            <a href="#/" className='read-more-btn'>Read More</a>
         </div>
     )
 }
