@@ -13,6 +13,15 @@
   font-family: 'Poppins', sans-serif;
 }
 
+input {
+  border:none;
+  background-image:none;
+  background-color:transparent;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
 html {
   width: 100vw;
 }

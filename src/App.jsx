@@ -8,6 +8,7 @@ import WhyTractian from './components/WhyTractian/WhyTractian';
 import Stats from './components/Stats/Stats';
 import Solutions from './components/Solutions/Solutions';
 import Footer from './components/Footer/Footer';
+import ScheduleDemo from './components/ScheduleDemo/ScheduleDemo';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Features />
       <Stats />
       <WhyTractian />
+      <ScheduleDemo />
       <Footer />
     </div>
   );
