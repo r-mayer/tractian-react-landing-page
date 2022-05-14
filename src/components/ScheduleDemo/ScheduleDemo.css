@@ -1,0 +1,28 @@
+.schedule-demo-container {
+    min-height: 100vh;
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+}
+
+.schedule-demo-wrapper {
+    width: 80%;
+    /* min-height: 500px; */
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+
+.form-wrapper {
+    width: 40%;
+    /* border: 1px solid violet; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.schedule-hero-wrapper {
+    width: 60%;
+    /* border: 1px solid blue; */
+}
