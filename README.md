@@ -9,3 +9,6 @@ I'll be back here later :)
 LIVE SITE CAN BE SEEN HERE: https://r-mayer.github.io/tractian-react-landing-page/
 
 
+<!-- // export PUBLIC_URL=http://localhost:3000/ -->
+
+
