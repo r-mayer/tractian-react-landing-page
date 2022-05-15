@@ -14,6 +14,7 @@ function ScheduleDemo() {
                     <p className="schedule-quote-title">Revolutionizing the lives of maintenance professionals</p>
                     <p className="schedule-quote">"With the best technology, we've turned a time-consuming and complex process into a simple and smart experience."</p>
                     <img src="./bg-form.png" alt="Form Background" className='bg-form'/>
+                    <img src="./logo.svg" alt="Logo" className='logo-form' />
                 </div>
             </div>
         </div>

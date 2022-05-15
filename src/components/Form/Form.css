@@ -18,8 +18,12 @@
     width: 90%;
 }
 
+.form-container input:focus-visible {
+    outline : 2px solid var(--main-blue);
+    border-radius: 0.2rem;
+}
+
 .form-container {
-    /* border: 1px solid yellow; */
     padding: 1rem 0 0 0;
 }
 
@@ -28,12 +32,10 @@
     margin-bottom: 2rem;
     padding: 0;
     overflow: auto;
-    /* border: 1px solid green; */
 }
 
 .form ul li {
     width: 90%;
-    /* border-bottom: 1px solid rgb(206, 206, 206); */
     display: block;
     position: relative;
     float: left;

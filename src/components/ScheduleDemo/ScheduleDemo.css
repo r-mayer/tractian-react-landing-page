@@ -61,3 +61,11 @@
     z-index: 0;
     filter: blur(0.15rem) grayscale(60%) brightness(0.8);
 }
+
+.logo-form {
+    position: absolute;
+    right: 2rem;
+    bottom: 1rem;
+    width: 10rem;
+    filter: invert(100%) sepia(100%) saturate(1%) hue-rotate(34deg) brightness(102%) contrast(101%) opacity(0.7);
+}

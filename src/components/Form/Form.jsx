@@ -10,7 +10,7 @@ function Form() {
                 <input type="text" placeholder="Job title" class="input" />
                 <input type="text" placeholder="Your corporate email" class="input" />
                 <input type="text" placeholder="Phone number" class="input" />
-                <p className='form-question'>What interested you most about our solutions?</p>
+                <p className='form-question'>What interested you most about TRACTIAN solutions?</p>
                 <ul>
                     <li>
                         <input type="radio" name="interest" id="real-time" />
