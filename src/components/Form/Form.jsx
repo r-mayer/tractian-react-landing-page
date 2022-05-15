@@ -4,7 +4,7 @@ function Form() {
     return(
         <div className="form-container">
             <h2 className="form-title">Let's partner up</h2>
-            <p className="form-desc">Lets level up your industry.</p>
+            <p className="form-desc">It's time to level up your industry.</p>
             <form className='form'>
                 <input type="text" placeholder="Your name" class="input" />
                 <input type="text" placeholder="Job title" class="input" />
