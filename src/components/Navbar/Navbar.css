@@ -34,14 +34,10 @@ header {
     margin-right: 5rem;
 }
 
-.middle-links ul {
+.middle-links-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.middle-links ul li {
-    /* margin: 0 1rem; */
 }
 
 .arrow {

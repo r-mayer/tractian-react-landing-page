@@ -2,7 +2,7 @@ import './Navbar.css';
 import NavItem from '../NavItem/NavItem';
 import LangButton from '../LangButton/LangButton';
 import MainButton from '../MainButton/MainButton';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 
 function Navbar() {
 
@@ -10,7 +10,8 @@ function Navbar() {
         {
             activeItem: null,
             items: [{id: 1}, {id: 2}, {id: 3}, {id: 4}],
-            menuNames: [{nameOf: "Solutions"}, {nameOf: "Industries"}, {nameOf: "About Us"}, {nameOf: "Resources"} ]
+            menuNames: [{nameOf: "Solutions"}, {nameOf: "Industries"}, {nameOf: "About Us"}, {nameOf: "Resources"} ],
+            imgs: ["./sensor-box.png", "./bluecap.png", "./ativos-recebidos.png", "./faq-hero.png"]
         }
     );
 
@@ -36,10 +37,10 @@ function Navbar() {
                 <img src="logo.svg" alt="Logo" className='logo white-svg'/>
                 <i class="fa-solid fa-bars hamburg"></i>
                 <div className="middle-links">
-                    <ul>
+                    <ul className='middle-links-container'>
                         {
                             itemState.items.map((element, index) => (
-                                <div key={index} onClick={() => {toggleActive(index)}}><NavItem status={getStatus(index)} name={itemState.menuNames[index].nameOf}>{itemState.menuNames[index].nameOf}</NavItem></div>
+                                <div key={index} onClick={() => {toggleActive(index)}}><NavItem status={getStatus(index)} name={itemState.menuNames[index].nameOf} img={itemState.imgs[index]}>{itemState.menuNames[index].nameOf}</NavItem></div>
                             ))
                         }
                         <p className="nav-link nav-item">Blog</p>

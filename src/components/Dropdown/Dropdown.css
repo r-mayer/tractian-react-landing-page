@@ -1,14 +1,22 @@
-.teste {
-    width: 100vw;
+.dropdown-container {
+    width: calc(100vw - 1rem);
     height: calc(100vh - 100px);
-    background-color:var(--white);
+    background-color: var(--white);
+    border-top: 1px solid rgba(84, 130, 230, 0.803);
+    box-shadow: inset 0px 0px 40px 25px rgba(190, 190, 190, 0.4);
     position: absolute;
     left: 0;
     top: 100px;
     z-index: 5;
     color: var(--dark);
+    padding: 3rem 4rem;
+    cursor: default;
+    overflow: hidden;
 }
 
-.actived {
-    background-color: blue;
+.dropdown-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
 }
