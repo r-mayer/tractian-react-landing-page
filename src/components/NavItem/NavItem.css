@@ -18,10 +18,12 @@
     align-items: center;
 }
 
+
 .nav-item-text {
     margin-right: 0.4rem;
 }
 
+
 .active {
-    /* color: red; */
+    color: var(--main-blue);
 }

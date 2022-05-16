@@ -40,6 +40,15 @@ header {
     align-items: center;
 }
 
+.nav-link {
+    color: var(--white);
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: var(--main-blue);
+}
+
 .arrow {
     font-size: 0.7rem;
     transition: rotate 0.3s;
