@@ -1,0 +1,14 @@
+.teste {
+    width: 100vw;
+    height: calc(100vh - 100px);
+    background-color:var(--white);
+    position: absolute;
+    left: 0;
+    top: 100px;
+    z-index: 5;
+    color: var(--dark);
+}
+
+.actived {
+    background-color: blue;
+}
