@@ -9,6 +9,7 @@
     align-items: center;
     cursor: pointer;
     position: relative;
+    z-index: 10;
 }
 
 .flag-logo {
@@ -36,7 +37,7 @@
     margin-top: 0.3rem;
     border-radius: 0.4rem;
     border: 1px solid var(--gray);
-    background-color: rgba(26, 30, 36, 0.7);
+    background-color: rgb(23, 27, 32);
     display: flex;
     flex-direction: column;
     align-items: center;
