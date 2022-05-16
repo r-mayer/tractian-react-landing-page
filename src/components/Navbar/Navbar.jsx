@@ -2,8 +2,34 @@ import './Navbar.css';
 import NavItem from '../NavItem/NavItem';
 import LangButton from '../LangButton/LangButton';
 import MainButton from '../MainButton/MainButton';
+import { useEffect, useState } from 'react';
 
 function Navbar() {
+
+    const [itemState, setState] = useState(
+        {
+            activeItem: null,
+            items: [{id: 1}, {id: 2}, {id: 3}, {id: 4}],
+            menuNames: [{nameOf: "Solutions"}, {nameOf: "Industries"}, {nameOf: "About Us"}, {nameOf: "Resources"} ]
+        }
+    );
+
+    function toggleActive(index) {
+        if (itemState.activeItem === itemState.items[index]) {
+            setState({ ...itemState, activeItem: null});
+        } else {
+            setState({ ...itemState, activeItem: itemState.items[index]});
+        }
+    }
+
+    function getStatus(index) {
+        if (itemState.items[index] === itemState.activeItem) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
     return (
         <div className="navbar">
             <header>
@@ -11,10 +37,11 @@ function Navbar() {
                 <i class="fa-solid fa-bars hamburg"></i>
                 <div className="middle-links">
                     <ul>
-                        <NavItem>Solutions</NavItem>
-                        <NavItem>Industries</NavItem>
-                        <NavItem>About Us</NavItem>
-                        <NavItem>Resoucers</NavItem>
+                        {
+                            itemState.items.map((element, index) => (
+                                <div key={index} onClick={() => {toggleActive(index)}}><NavItem status={getStatus(index)} name={itemState.menuNames[index].nameOf}>{itemState.menuNames[index].nameOf}</NavItem></div>
+                            ))
+                        }
                         <p className="nav-link nav-item">Blog</p>
                         <LangButton />
                     </ul>
