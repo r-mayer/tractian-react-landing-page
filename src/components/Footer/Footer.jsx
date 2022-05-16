@@ -40,7 +40,7 @@ export default Footer;
 
 function ListLinks(props) {
     const listNames = props.list;
-    const listItems = listNames.map((listName) => <li className='list-item'>{listName}</li>);
+    const listItems = listNames.map((listName, index) => <li key={index} className='list-item'>{listName}</li>);
     return(
         <div className="list-container">
             <p className="list-title">{props.title}</p>
