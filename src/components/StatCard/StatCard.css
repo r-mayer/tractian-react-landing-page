@@ -2,7 +2,7 @@
     width: 350px;
     height: 200px;
     border-radius: 1rem;
-    background-color: rgba(12, 17, 26, 0.5);
+    background-color: rgba(12, 17, 26, 1);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -23,7 +23,8 @@
 .stat-card-container::before {
     content: '';
     width: 100%;
-    height: 10px;
+    height: 5px;
+    border-radius: 0 0 50% 50%;
     background-color: var(--main-blue);
     position: absolute;
     left: 0;
@@ -34,13 +35,15 @@
     font-size: 3rem;
     font-weight: 700;
     color: var(--white);
+    display: flex;
+    align-items: center;
 }
 
 .stat-desc {
     font-size: 0.9rem;
-    font-weight: 500;
+    font-weight: 300;
     text-align: center;
-    color: var(--main-blue);
+    color: rgba(255, 255, 255, 0.486);
 }
 
 .bluecap-img {
@@ -49,6 +52,11 @@
     top: 50%;
     width: 120px;
     opacity: 0.1;
+}
+
+.stats-icon {
+    font-size: 2rem;
+    margin-right: 1rem;
 }
 
 

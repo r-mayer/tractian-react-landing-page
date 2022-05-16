@@ -69,7 +69,7 @@
 
 .bottom-links {
     width: 100%;
-    padding: 1rem 10rem 1rem 3rem;
+    padding: 1rem 3rem 1rem 3rem;
     display: flex;
     color: var(--white);
     justify-content: space-evenly;
@@ -108,12 +108,14 @@
 }
 
 .credit p {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
 }
 
 
 @media screen and (max-width: 700px) {
     .footer-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         flex-direction: column;
         align-items: center;
     }
@@ -128,10 +130,20 @@
     .bottom-links {
         flex-direction: column;
         align-items: center;
+        padding: 1rem 3rem 1rem 3rem;
     }
 
+    .social-icon {
+        font-size: 1.5rem;
+    }
+    
     .middle {
-        margin-top: 2rem;
-        margin-bottom: 1rem;
+        font-size: 0.6rem;
+        margin-top: 1rem;
+    }
+    
+    .credit p {
+        font-size: 0.5rem;
+        margin-top: 1rem;
     }
 }

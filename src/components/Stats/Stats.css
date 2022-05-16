@@ -6,6 +6,7 @@
     align-items: center;
     position: relative;
     min-height: 90vh;
+    position: relative;
 }
 
 .stats-title {
@@ -41,6 +42,24 @@
     justify-content: center;
 }
 
+.bg-stats {
+    position: absolute;
+    left: -200px;
+    top: 0;
+    height: 1000px;
+    opacity: 0.2;
+    filter: sepia(0.4);
+}
+
+.bg-stats-blur {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 1000px;
+    background: rgb(28,36,49);
+    background: linear-gradient(180deg, rgba(28,36,49,1) 0%, rgba(255,255,255,0) 51%, rgba(28,36,49,1) 100%);
+}
 
 @media screen and (max-width: 1000px) {
     .stats-title {

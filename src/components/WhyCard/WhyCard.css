@@ -53,3 +53,21 @@
     font-size: 0.8rem;
     color: var(--white);
 }
+
+@media screen and (max-width: 430px) {
+    .why-card-container {
+        padding: 1rem 1rem;
+    }
+    .card-img {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .why-card-container {
+        
+    }
+    .card-img {
+        display: none;
+    }
+}

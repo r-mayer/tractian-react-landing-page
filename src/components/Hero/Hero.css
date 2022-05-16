@@ -46,3 +46,43 @@
     color: var(--main-blue);
     font-weight: 500;
 }
+
+
+@media screen and (max-width: 890px) {
+    .hero-title {
+        font-size: 2rem;
+    }
+    .hero-text {
+        width: 90%;
+        margin-top: 1rem;
+        font-size: 0.8rem;
+        font-weight: 300;
+    }
+    
+}
+
+@media screen and (max-width: 430px) {
+    .hero-title {
+        font-size: 1.5rem;
+    }
+    .hero-text {
+        width: 80%;
+        margin-top: 1rem;
+        font-size: 0.8rem;
+        font-weight: 300;
+    }
+    .app-ratings {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2rem;   
+    }
+    .google-logo {
+        width: 5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .capterra-logo {
+        width: 9rem;
+    }
+    
+}
