@@ -1,11 +1,8 @@
-import './Navbar.css';
+import './NavbarHidden.css';
 import NavItem from '../NavItem/NavItem';
-import LangButton from '../LangButton/LangButton';
-import MainButton from '../MainButton/MainButton';
 import { useState } from 'react';
-import { useCallback } from 'react';
 
-function Navbar(props) {
+function NavbarHidden() {
 
     const [itemState, setState] = useState(
         {
@@ -24,10 +21,6 @@ function Navbar(props) {
         }
     }
 
-    const handleClick = useCallback(event => {
-        props.setHiddenMenu(false)
-      }, [props.setHiddenMenu])
-
     function getStatus(index) {
         if (itemState.items[index] === itemState.activeItem) {
             return true;
@@ -37,28 +30,21 @@ function Navbar(props) {
     }
 
     return (
-        <div className="navbar">
-            <header>
-                <img src="logo.svg" alt="Logo" className='logo white-svg'/>
-                <i class="fa-solid fa-bars hamburg" onClick={handleClick}></i>
-                <div className="middle-links">
-                    <ul className='middle-links-container'>
+        <div className="hidden-navbar">
+            <header className='hidden-header'>
+                <div className="hidden-links">
+                    <ul className='hidden-links-container'>
                         {
                             itemState.items.map((element, index) => (
-                                <div key={index} onClick={() => {toggleActive(index)}}><NavItem status={getStatus(index)} name={itemState.menuNames[index].nameOf} img={itemState.imgs[index]}>{itemState.menuNames[index].nameOf}</NavItem></div>
+                                <div key={index} onClick={() => {toggleActive(index)}}><NavItem status={getStatus(index)} name={itemState.menuNames[index].nameOf} img={itemState.imgs[index]} hidden={true}>{itemState.menuNames[index].nameOf}</NavItem></div>
                             ))
                         }
                         <p className="nav-link nav-item">Blog</p>
-                        <LangButton />
                     </ul>
                  </div>
-                <div className="right-links">
-                    <p className='customer-link'>Customers area</p>
-                    <MainButton>Demonstration</MainButton>
-                </div>
             </header>
         </div>
     )
 }
 
-export default Navbar;
+export default NavbarHidden;
