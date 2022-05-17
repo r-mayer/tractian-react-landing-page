@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/tractian-react-landing-page/static/css/main.a6249b7c.css",
-    "main.js": "/tractian-react-landing-page/static/js/main.fbe9f9ec.js",
-    "static/media/blueball.svg": "/tractian-react-landing-page/static/media/blueball.1f12b540a7c23932b9c0.svg",
-    "index.html": "/tractian-react-landing-page/index.html",
-    "static/media/screwdriver-wrench-solid.svg": "/tractian-react-landing-page/static/media/screwdriver-wrench-solid.c107e3099b1abe52a86c.svg",
-    "main.a6249b7c.css.map": "/tractian-react-landing-page/static/css/main.a6249b7c.css.map",
-    "main.fbe9f9ec.js.map": "/tractian-react-landing-page/static/js/main.fbe9f9ec.js.map"
+    "main.css": "http://localhost:3000/static/css/main.afc2aa78.css",
+    "main.js": "http://localhost:3000/static/js/main.5ba62988.js",
+    "static/media/blueball.svg": "http://localhost:3000/static/media/blueball.1f12b540a7c23932b9c0.svg",
+    "index.html": "http://localhost:3000/index.html",
+    "static/media/screwdriver-wrench-solid.svg": "http://localhost:3000/static/media/screwdriver-wrench-solid.c107e3099b1abe52a86c.svg",
+    "main.afc2aa78.css.map": "http://localhost:3000/static/css/main.afc2aa78.css.map",
+    "main.5ba62988.js.map": "http://localhost:3000/static/js/main.5ba62988.js.map"
   },
   "entrypoints": [
-    "static/css/main.a6249b7c.css",
-    "static/js/main.fbe9f9ec.js"
+    "static/css/main.afc2aa78.css",
+    "static/js/main.5ba62988.js"
   ]
 }
