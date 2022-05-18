@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "./static/css/main.226ef92e.css",
+    "main.css": "./static/css/main.0a67b6f1.css",
     "main.js": "./static/js/main.cea597ce.js",
     "static/media/blueball.svg": "./static/media/blueball.1f12b540a7c23932b9c0.svg",
     "static/media/screwdriver-wrench-solid.svg": "./static/media/screwdriver-wrench-solid.c107e3099b1abe52a86c.svg",
     "index.html": "./index.html",
-    "main.226ef92e.css.map": "./static/css/main.226ef92e.css.map",
+    "main.0a67b6f1.css.map": "./static/css/main.0a67b6f1.css.map",
     "main.cea597ce.js.map": "./static/js/main.cea597ce.js.map"
   },
   "entrypoints": [
-    "static/css/main.226ef92e.css",
+    "static/css/main.0a67b6f1.css",
     "static/js/main.cea597ce.js"
   ]
 }
