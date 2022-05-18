@@ -10,7 +10,7 @@ function SolutionCard(props) {
             <MainButton>{props.buttontext}
                 <i className="fa-solid fa-angle-right solution-arrow"></i>
             </MainButton>
-            <img src={props.img} alt="Solution" className="solution-card-img" />
+            <img src={props.img} alt="Solution" className={`solution-card-img ${props.id === 2 ? "adjust" : ""} `}/>
         </div>
     )
 }
