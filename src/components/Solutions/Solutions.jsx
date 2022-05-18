@@ -16,7 +16,7 @@ function Solutions() {
             <p className="solutions-choose">Choose the area that interest you:</p>
             <div className="solutions-wrapper">
                 <SolutionCard pretitle="hardware + connection + software" title="Online Monitoring" desc="Our system centralizes accurate information about your machines" buttontext="Discover our solutions" img="./sensor-box.png"/>
-                <SolutionCard pretitle="complete plataform" title="Asset Management" desc="Automate your Work Plans and Work Orders, replace Excel completely" buttontext="Check our products" img="./mobile-assets-tree.png"/>
+                <SolutionCard pretitle="complete plataform" title="Asset Management" desc="Automate your Work Plans and Work Orders, replace Excel completely" buttontext="Check our products" img="./application-tractian.png" id="2"/>
             </div>
         </div>
     )
