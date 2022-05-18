@@ -13,7 +13,7 @@ function NavItem(props) {
     return (
         <>
             <li className='nav-item'>
-                <a href="/#" className={`nav-link ${IsActive ? "active" : "" }`} onClick= {() => {setIsActive(!IsActive)}}>
+                <a href="#/" className={`nav-link ${IsActive ? "active" : "" }`} onClick= {() => {setIsActive(!IsActive)}}>
                     <span className='nav-item-text'>{props.children}</span>
                     {IsActive && props.hidden !== true && <Dropdown status={IsActive} name={props.name} img={props.img}/>}
                     <i className={`fa-solid fa-angle-down arrow ${IsActive ? "rotate" : ""}`}></i>

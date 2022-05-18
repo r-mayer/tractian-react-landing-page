@@ -11,7 +11,7 @@ function Hero() {
                     <img src="./google-logo.svg" alt="Play Store Logo" className='google-logo'/>
                     <img src="./captera-logo.svg" alt="Capterra Logo" className='capterra-logo'/>
                 </div>
-                <ButtonArea />
+                <ButtonArea isDark={true}/>
             </div>
         </div>
     )
