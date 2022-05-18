@@ -29,6 +29,12 @@ header {
     display: none;
     font-size: 2rem;
     cursor: pointer;
+    transition: 0.3s;
+}
+
+.hamburg:hover {
+    color: var(--main-blue);
+    opacity: 0.7;
 }
 
 .middle-links {

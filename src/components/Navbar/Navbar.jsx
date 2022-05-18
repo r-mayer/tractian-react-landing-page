@@ -39,7 +39,7 @@ function Navbar(props) {
     return (
         <div className="navbar">
             <header>
-                <img src="logo.svg" alt="Logo" className='logo white-svg'/>
+                <img src="logo.svg" alt="Logo" className='logo white-svg' onClick={window.scrollTo(0, 0)}/>
                 <i class="fa-solid fa-bars hamburg" onClick={handleClick}></i>
                 <div className="middle-links">
                     <ul className='middle-links-container'>
