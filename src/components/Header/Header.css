@@ -10,8 +10,6 @@
     margin-bottom: 5rem;
 }
 
-/* RIGHT LINKS */
-
 .customer-link {
     margin-right: 1rem;
 }
@@ -26,7 +24,7 @@
 
 .bg-blueball {
     position: absolute;
-    width: 200px;
+    width: 250px;
     left: 25%;
     top: 10%;
     opacity: 1;
@@ -35,13 +33,13 @@
 
 @keyframes blink {
     0% {
-        transform: scale(1.1);
+        transform: scale(1.2);
     }
     50% {
         transform: scale(0.6);
     }
     100% {
-        transform: scale(1.1);
+        transform: scale(1.2);
     }
 }
 
@@ -81,9 +79,15 @@
     color: var(--white);
     font-size: 2rem;
     position: absolute;
-    top: 5%;
-    right: 5%;
-    cursor: pointer;  
+    top: 2rem;
+    right: 4.4rem;
+    cursor: pointer; 
+    transition: 0.3s; 
+}
+
+.close-btn:hover {
+    color: var(--main-blue);
+    opacity: 0.5;
 }
 
 
