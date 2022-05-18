@@ -9,7 +9,7 @@ function ButtonArea(props) {
                 <img src="./letter-N.svg" alt="bg-N" className='lt-bg' />
             </div>
             <MainButton size="big">Schedule a demo</MainButton>
-            <p className={props.isDark ? 'btn-customer' : 'hide'}>Already a customer? <a href="http://localhost:3000/" className={props.isDark ? 'link-customer' : 'hide'}>Access here.</a></p>
+            <p className={props.isDark ? 'btn-customer' : 'hide'}>Already a customer? <a href="#/" className={props.isDark ? 'link-customer' : 'hide'}>Access here.</a></p>
         </div>
     )
 }
