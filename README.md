@@ -60,7 +60,7 @@ Mobile:
 ## Footer
 
 Desktop:  
-![image](https://user-images.githubusercontent.com/26614294/169140936-af29aa00-9203-4620-ae60-4e49e68e8312.png)
+![image](https://user-images.githubusercontent.com/26614294/169141954-090913d6-e818-48b7-bc4e-1317026bd8ec.png)
 
 Mobile:  
 ![image](https://user-images.githubusercontent.com/26614294/169141069-473c4689-b5e2-4cb1-b680-5ec3776e0bd1.png)
